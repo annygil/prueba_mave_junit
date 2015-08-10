@@ -12,6 +12,7 @@ import java.util.List;
  */
 
 public class ShoppingCart{
+  
     private List<Product> productList = new ArrayList<>();
     
         private double totalCartValue;
