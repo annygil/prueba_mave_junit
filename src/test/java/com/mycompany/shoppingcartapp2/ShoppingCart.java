@@ -12,12 +12,12 @@ import java.util.List;
  */
 
 public class ShoppingCart{
-    private List<Product> productList = new ArrayList<>();
+    
+        private List<Product> productList = new ArrayList<>();
         private double totalCartValue;
         private IOffer offer;
 
  
-        
 
     
     	public int getProductCount() {
