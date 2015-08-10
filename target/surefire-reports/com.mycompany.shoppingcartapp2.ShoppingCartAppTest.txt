@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.shoppingcartapp2.ShoppingCartAppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.215 sec <<< FAILURE!
-testCreateEmptyShoppingCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.02 sec  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.214 sec <<< FAILURE!
+testCreateEmptyShoppingCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.027 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.mycompany.shoppingcartapp2.ShoppingCart.getProductCount(ShoppingCart.java:27)
 	at com.mycompany.shoppingcartapp2.ShoppingCartAppTest.testCreateEmptyShoppingCart(ShoppingCartAppTest.java:27)
@@ -68,7 +68,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-addDifferentProductsToTheCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.007 sec  <<< ERROR!
+addDifferentProductsToTheCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.01 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.mycompany.shoppingcartapp2.ShoppingCart.addProduct(ShoppingCart.java:34)
 	at com.mycompany.shoppingcartapp2.ShoppingCartAppTest.addDifferentProductsToTheCart(ShoppingCartAppTest.java:48)
@@ -101,7 +101,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testAddMultipleQuantityOfAProductAndApplyOfferToCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.006 sec  <<< ERROR!
+testAddMultipleQuantityOfAProductAndApplyOfferToCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.007 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.mycompany.shoppingcartapp2.ShoppingCart.addProduct(ShoppingCart.java:34)
 	at com.mycompany.shoppingcartapp2.ShoppingCartAppTest.testAddMultipleQuantityOfAProductAndApplyOfferToCart(ShoppingCartAppTest.java:60)
@@ -134,7 +134,7 @@ java.lang.NullPointerException
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
-testApplyBuyOneGetFiftyPercentDiscountOnNextOfferToTheCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.006 sec  <<< ERROR!
+testApplyBuyOneGetFiftyPercentDiscountOnNextOfferToTheCart(com.mycompany.shoppingcartapp2.ShoppingCartAppTest)  Time elapsed: 0.02 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.mycompany.shoppingcartapp2.ShoppingCart.addProduct(ShoppingCart.java:34)
 	at com.mycompany.shoppingcartapp2.ShoppingCartAppTest.testApplyBuyOneGetFiftyPercentDiscountOnNextOfferToTheCart(ShoppingCartAppTest.java:73)
