@@ -4,18 +4,9 @@
  * and open the template in the editor.
  */
 package com.mycompany.shoppingcartapp2;
+
 import org.junit.Assert;
 import org.junit.Test;
-
-
-import com.mycompany.shoppingcartapp2.BuyXItemGetYItemFreeOffer;
-import com.mycompany.shoppingcartapp2.IOffer;
-import com.mycompany.shoppingcartapp2.NoOffer;
-import com.mycompany.shoppingcartapp2.Product;
-import com.mycompany.shoppingcartapp2.ShoppingCart;
-
-
-
 
 
 public class ShoppingCartAppTest {
@@ -23,12 +14,13 @@ public class ShoppingCartAppTest {
     @Test
     public void testCreateEmptyShoppingCart(){
         ShoppingCart cart= new ShoppingCart();
+        Assert.assertEquals(0,cart.getProductCount());
         
-        Assert.assertEquals(0, cart.getProductCount());
   
     
     }
     
+   
     @Test
 	public void testAddSingleProductToShoppingCart() {
 		ShoppingCart cart = new ShoppingCart();
