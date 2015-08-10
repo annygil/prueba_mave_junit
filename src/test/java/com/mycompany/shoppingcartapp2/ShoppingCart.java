@@ -1,6 +1,8 @@
 package com.mycompany.shoppingcartapp2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+
 import java.util.List;
 
     //asdfghjklñ
@@ -13,7 +15,7 @@ import java.util.List;
 
 public class ShoppingCart{
   
-    private List<Product> productList = new ArrayList<>();
+    private final List<Product> productList = new ArrayList();
     
         private double totalCartValue;
         private IOffer offer;
